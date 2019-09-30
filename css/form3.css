@@ -1,0 +1,49 @@
+input[type="button"] {
+    background: rgba(59, 196, 255, 0.817);
+    padding: 1em 20.8em;
+    border-radius: 4px;
+    font-size: 1em;
+}
+input[type="button"]:hover{
+    background: linear-gradient(90deg, blue , purple);
+    color: #fff;
+}
+.name>legend::after{
+    content: '*';
+    color: red;
+}
+.mail>legend::after{
+    content: '*';
+    color: red;
+}
+.text>legend::after{
+    content: '*';
+    color: red;
+}
+form{
+    margin: 2em 3em;
+}
+input[type="text"]{
+    width: 30em;
+    padding: 1em;
+}
+legend{
+    font-size: 2em;
+}
+input[type="email"]{
+    width: 62.8em;
+    padding: 1em;
+}
+select{
+    width: 65.2em;
+    height: 3em;
+}
+input[type="email"]:focus{
+    outline-color: aquamarine;
+}
+input[type="text"]:focus{
+    outline-color: aquamarine;
+}
+textarea:focus{
+    outline-color: aquamarine;
+}

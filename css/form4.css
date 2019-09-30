@@ -1,0 +1,45 @@
+.form{
+    width: 600px;
+    height: 40em;
+    background: grey;
+}
+h1{
+    text-align: center;
+    background: lime;
+    margin: 0;
+    padding: .5em;
+}
+input[type="text"]{
+    width: 15em;
+    margin: 1em 10%;
+    font-size: 2em;
+    border-radius: 3px;
+}
+input[type="email"]{
+    width: 15em;
+    margin: 1em 10%;
+    font-size: 2em;
+    border-radius: 3px;
+}
+input[type="button"]{
+    width: 15em;
+    margin: 1em 10%;
+    font-size: 2em;
+    background: lime;
+    border-radius: 5px;
+}
+textarea{
+    width: 15em;
+    margin: 0em 10%;
+    font-size: 2em;
+    border-radius: 3px;
+}
+input[type="text"]:focus{
+    outline: none;
+}
+input[type="email"]:focus{
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}

@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.Out{
+    background: rgb(55, 55, 55);
+    width: 40%;
+    margin:0 auto;
+}
+h1{
+    font-family: monospace;
+    color: aliceblue;
+    text-align: center;
+    font-size: 3em;
+}
+a{
+    font-size: 1.5em;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0 3em;
+}
+.button1{
+    text-align: center;
+}
+.signup{
+    background: rgba(128, 128, 128, 0);
+}
+.active{
+    background: rgb(75, 187, 75);
+    
+}
+input[type="text"]{
+    margin-left: 10%;
+    text-align: left;
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+input[type="email"]{
+    margin-left: 10%;
+    text-align: left;
+    font-size: 1.5em;
+    margin-bottom: 2em;
+    padding: 0 6.7em;
+}
+input[type="password"]{
+    margin-left: 10%;
+    text-align: left;
+    font-size: 1.5em;
+    margin-bottom: 2em;
+    padding: 0 6.7em;
+}
+input[type="button"]{
+    background: rgb(75, 187, 75);
+    padding:.5em  7.3em;
+    margin: 1em 9%;
+    font-size: 2em;
+    border: none;
+    color: aliceblue;
+}
