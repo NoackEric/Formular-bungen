@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 .Out{
-    background: rgb(55, 55, 55);
+    background: rgb(26, 26, 26);
     width: 40%;
     margin:0 auto;
 }
@@ -12,6 +12,10 @@ h1{
     color: aliceblue;
     text-align: center;
     font-size: 3em;
+}
+.signup:hover{
+    background: rgba(75, 187, 75, 0.475);
+    transition: all .6s ease-in;
 }
 a{
     font-size: 1.5em;
@@ -31,22 +35,26 @@ a{
 input[type="text"]{
     margin-left: 10%;
     text-align: left;
-    font-size: 1.5em;
+    font-size: 1em;
     margin-bottom: 2em;
+    padding: .6em 2em;
+    
 }
 input[type="email"]{
     margin-left: 10%;
     text-align: left;
-    font-size: 1.5em;
+    font-size: 1em;
     margin-bottom: 2em;
-    padding: 0 6.7em;
+    padding: 0.4em;
+    padding-right: 48.8%;
 }
 input[type="password"]{
     margin-left: 10%;
     text-align: left;
-    font-size: 1.5em;
+    font-size: 1em;
     margin-bottom: 2em;
-    padding: 0 6.7em;
+    padding: 0.4em;
+    padding-right: 48.8%;
 }
 input[type="button"]{
     background: rgb(75, 187, 75);
